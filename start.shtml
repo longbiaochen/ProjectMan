@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <title>ProjectMan</title>
+        <link rel="apple-touch-icon" href="img/favicon.png" />
+        <link rel="apple-touch-startup-image" href="img/splash.jpg" />
+        <link rel="shortcut icon" href="img/favicon.png" />
+        <!-- Library -->
+        <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+        <script src="lib/jquery-1.7.2.min.js"></script>
+        <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+        <!-- Application -->
+        <link href="index.css" rel="stylesheet" />
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <header class="navbar navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="brand" href="start.shtml">ProjectMan</a>
+                    <div class="nav-collapse">
+                        <ul class="nav">
+                            <li id="felix_link" class="page_link active" page="felix">
+                                <a  href="#felix">Felix</a>
+                            </li>
+                            <li id="yibing_link" class="page_link" page="yibing">
+                                <a  href="#yibing">Yibing</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!--#include file="felix.html" -->
+        <!--#include file="yibing.html" -->
+    </body>
+</html>
